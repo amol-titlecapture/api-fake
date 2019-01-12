@@ -1,5 +1,5 @@
 {
-  "users": [{
+  "users": {
 	    "message": "User found!",
 	    "data": {
 	        "id": 141065,
@@ -24,7 +24,7 @@
 	        "email_code": "{\"verified\":\"no\",\"code\":\"JIWCIT\"}",
 	        "security_questions": ""
 	    }
-	}],
+	},
   "profile": {
     "name": "typicode"
   }
