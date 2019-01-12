@@ -1,10 +1,30 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
+  "users": [{
+	    "message": "User found!",
+	    "data": {
+	        "id": 141065,
+	        "company": 52,
+	        "fname": "Jenny",
+	        "lname": "Saville",
+	        "user_company": "Keller Williams",
+	        "title": "Title",
+	        "email": "mihai@titlecapture.com",
+	        "phone": "",
+	        "office_id": 134,
+	        "rep_id": 205589,
+	        "group_id": 0,
+	        "timestamp": 1481886569,
+	        "usertype": "",
+	        "facebook": null,
+	        "twitter": null,
+	        "instagram": null,
+	        "linkedin": null,
+	        "contact_details": null,
+	        "phone_code": "{\"verified\":\"no\",\"code\":\"IACPRD\"}",
+	        "email_code": "{\"verified\":\"no\",\"code\":\"JIWCIT\"}",
+	        "security_questions": ""
+	    }
+	}],
   "profile": {
     "name": "typicode"
   }
