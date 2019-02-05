@@ -27,5 +27,133 @@
 	},
   "profile": {
     "name": "typicode"
-  }
+  },
+
+
+
+  "costs" :{
+  "template": {
+    "buyer_expenses": [
+      {
+        "template_name": "template BE",
+        "fees": [
+          {
+            "type": "exp",
+            "value": 95,
+            "label": "Pest Control Report"
+          },
+          {
+            "type": "exp",
+            "value": 120,
+            "label": "Natural Hazard"
+          },
+          {
+            "type": "exp",
+            "value": 500,
+            "label": "Home Warranty"
+          },
+          {
+            "type": "exp",
+            "value": 200,
+            "label": "Closing Reserves - Pad"
+          },
+          {
+            "type": "crd",
+            "value": 75,
+            "label": "SB-2 Recording Fee"
+          }
+        ]
+      }
+    ],
+    "hoa": [
+      {
+        "template_name": "template HOA",
+        "fees": [
+          {
+            "value": 123,
+            "name": "hoa_amount"
+          },
+          {
+            "value": 332,
+            "name": "hoa_cert"
+          },
+          {
+            "value": 122,
+            "name": "hoa_letter"
+          }
+        ]
+      }
+    ],
+    "seller_expenses": [
+      {
+        "template_name": "template SE",
+        "fees": [
+          {
+            "type": "exp",
+            "value": 323,
+            "label": "Pest Control Report"
+          },
+          {
+            "type": "crd",
+            "value": 234,
+            "label": "Natural Hazard"
+          },
+          {
+            "type": "exp",
+            "value": 212,
+            "label": "Home Warranty"
+          },
+          {
+            "type": "exp",
+            "value": 42,
+            "label": "Closing Reserves - Pad"
+          },
+          {
+            "type": "crd",
+            "value": 12,
+            "label": "SB-2 Recording Fee"
+          }
+        ]
+      }
+    ],
+    "impounds": [],
+    "lender": [],
+    "commission": [
+      {
+        "template_name": "template commission",
+        "fees": [
+          {
+            "value": 20,
+            "name": "seller_comm"
+          },
+          {
+            "value": 10,
+            "name": "buyer_comm"
+          },
+          {
+            "value": 1181,
+            "name": "hud_704s"
+          }
+        ]
+      }
+    ],
+    "property_tax": [
+      {
+        "template_name": "template proptax",
+        "fees": [
+          {
+            "value": 1233,
+            "name": "proptax"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "user",
+  "owner_id": 1079,
+  "company": 4,
+  "id": 4
+}
+
+
 }
