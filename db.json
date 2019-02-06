@@ -35,7 +35,7 @@
   "template": {
     "buyer_expenses": [
       {
-        "template_name": "template BE",
+        
         "fees": [
           {
             "type": "exp",
@@ -65,28 +65,9 @@
         ]
       }
     ],
-    "hoa": [
-      {
-        "template_name": "template HOA",
-        "fees": [
-          {
-            "value": 123,
-            "name": "hoa_amount"
-          },
-          {
-            "value": 332,
-            "name": "hoa_cert"
-          },
-          {
-            "value": 122,
-            "name": "hoa_letter"
-          }
-        ]
-      }
-    ],
     "seller_expenses": [
       {
-        "template_name": "template SE",
+        
         "fees": [
           {
             "type": "exp",
@@ -116,11 +97,34 @@
         ]
       }
     ],
-    "impounds": [],
-    "lender": [],
+    "hoa": [
+      {
+        
+        "fees": [
+          {
+            "value": "m",
+            "name": "hoa_period"
+          },
+          {
+            "value": 123,
+            "name": "hoa_amount"
+          },
+          {
+            "value": 332,
+            "name": "hoa_cert"
+          },
+          {
+            "value": 122,
+            "name": "hoa_letter"
+          }
+        ]
+      }
+    ],
+    "impounds": [{},{}],
+    "lender": [{},{}],
     "commission": [
       {
-        "template_name": "template commission",
+        
         "fees": [
           {
             "value": 20,
@@ -139,7 +143,7 @@
     ],
     "property_tax": [
       {
-        "template_name": "template proptax",
+        
         "fees": [
           {
             "value": 1233,
@@ -149,10 +153,12 @@
       }
     ]
   },
-  "type": "user",
+  "owner_type": "user",
   "owner_id": 1079,
   "company": 4,
-  "id": 4
+  "default":"yes",
+  "template_name": "Sb Costs"
+
 }
 
 
