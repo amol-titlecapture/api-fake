@@ -127,11 +127,11 @@
         
         "fees": [
           {
-            "value": 20,
+            "value": 30,
             "name": "seller_comm"
           },
           {
-            "value": 10,
+            "value": 40,
             "name": "buyer_comm"
           },
           {
